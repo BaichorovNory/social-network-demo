@@ -1,0 +1,2 @@
+(this.webpackJsonpreact_new=this.webpackJsonpreact_new||[]).push([[7],{305:function(t,e,c){"use strict";c.r(e);c(0);var n=c(11),s=c(1);e.default=function(t){return!1===t.isAuth?Object(s.jsx)(n.a,{to:"/login"}):Object(s.jsx)("div",{children:"Music"})}}}]);
+//# sourceMappingURL=7.7efe8731.chunk.js.map
