@@ -1,0 +1,13 @@
+.item {
+    color:black;
+    margin-top: 10px;
+}
+
+.item img {
+    width: 50px;
+}
+
+.likes {
+    
+    font-weight: bold;
+}

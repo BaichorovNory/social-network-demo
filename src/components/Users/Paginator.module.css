@@ -1,0 +1,44 @@
+.paginator {
+    margin: 10px;
+}
+.pageNumber {
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: white;
+}
+.pageNumber:hover {
+    background: black;
+    color: rgba(218, 112, 214, 0.8);
+    cursor: pointer;
+}
+.pageNumber.selectPage {
+    border-color: black;
+    background: black;
+    color: rgba(218, 112, 214, 0.8);
+}
+
+.button {
+    appearance: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: rgba(0,0,0,0);
+    color: #fff;
+    padding: 3px 10px;
+    margin: 1px;
+    font-size: 15px;
+    min-width: 60px;
+    outline: none;
+}
+.button:hover {
+    background: black;
+    color: rgba(218, 112, 214, 0.8);
+    cursor: pointer;
+    outline: none;
+}
+.button:focus {
+    background: black;
+    color: rgba(218, 112, 214, 0.8);
+    cursor: pointer;
+    outline: none;
+}

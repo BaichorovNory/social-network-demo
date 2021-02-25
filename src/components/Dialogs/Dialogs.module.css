@@ -1,0 +1,44 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogItems {
+    padding: 10px;
+}
+
+.dialog a {
+    color: darkslategray;
+    text-decoration: none;
+}
+
+.messages {
+    padding: 10px;
+}
+
+.buttonline {
+    display: flex;
+    margin-left: 10px;
+}
+
+.button {
+    appearance: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: rgba(0,0,0,0);
+    color: #fff;
+    padding: 3px 10px;
+    margin: 1px;
+    font-size: 15px;
+    min-width: 60px;
+}
+.button:hover {
+    background: black;
+    color: rgba(218, 112, 214, 0.8);
+    cursor: pointer;
+}
+.button:focus {
+    background: black;
+    color: rgba(218, 112, 214, 0.8);
+    cursor: pointer;
+}

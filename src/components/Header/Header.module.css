@@ -1,0 +1,45 @@
+.header {
+    grid-area: header;
+    background-color:rgba(211, 211, 211, 0.3);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .loginBlock {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-right: 5px;
+    color: white;
+    font-family: cursive;
+  }
+  .loginBlock button {
+    appearance: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: rgba(0,0,0,0);
+    color: #fff;
+    padding: 3px 10px;
+    margin: 5px;
+    font-size: 15px;
+    min-width: 60px;
+  }
+  .loginBlock button:hover {
+    background: black;
+    color: rgba(211, 211, 211, 0.8);
+    cursor: pointer;
+  }
+  .loginBlock button:focus {
+    background: black;
+    color: rgba(211, 211, 211, 0.8);
+    cursor: pointer;
+  }
+
+  .loginBlock a {
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  }

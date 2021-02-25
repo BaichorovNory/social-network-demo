@@ -1,0 +1,17 @@
+.friend {
+    display: grid;
+    grid-template-columns: 1fr 95%;
+}
+
+.friend a {
+    color: darkslategrey;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.friend img {
+    width: 40px;
+    border-radius: 20px;
+    margin-left: 5px;
+    padding: 2px;
+}

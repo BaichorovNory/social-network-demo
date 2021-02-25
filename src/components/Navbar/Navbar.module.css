@@ -1,0 +1,21 @@
+.nav {
+    grid-area: nav;
+    background-color:rgba(135, 206, 250, 0.3);
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 20px;
+  }
+
+.item a {
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    outline: none;
+
+}
+
+.item a.activeLink {
+  color: black;
+  text-shadow: 2px 4px 3px rgba(255,255,255,0.5);
+}
