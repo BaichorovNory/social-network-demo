@@ -1,0 +1,2 @@
+(this.webpackJsonpreact_new=this.webpackJsonpreact_new||[]).push([[8],{303:function(t,e,c){"use strict";c.r(e);c(0);var n=c(11),s=c(97),i=c(1);e.default=Object(s.a)((function(t){return t.isAuth?Object(i.jsx)("div",{children:"\u041d\u0435\u0440\u0430\u0431\u043e\u0447\u0430\u044f \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430"}):Object(i.jsx)(n.a,{to:"/login"})}))}}]);
+//# sourceMappingURL=8.0cd5d272.chunk.js.map
