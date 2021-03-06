@@ -11,9 +11,13 @@ import { requiredField, maxLengthCreator } from '../../validators/validators'
 const maxLength50 = maxLengthCreator(50);
 
 const LoginForm = (props) => {
+
     return (
         <form onSubmit={props.handleSubmit} className={styles}>
             <h1>LOGIN</h1>
+            <div className={styles.warning}>Для входа используйте:
+             email: <b>free@samuraijs.com</b>
+             password: <b>free</b></div>
             <div>
                 <Field placeholder='Введите email' name={'email'} component={Input} validate={[requiredField, maxLength50]} />
             </div>
