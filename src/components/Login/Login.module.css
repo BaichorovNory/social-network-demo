@@ -43,3 +43,8 @@ h1 {
     color: rgba(218, 112, 214, 0.8);
     cursor: pointer;
 }
+
+.warning {
+	display: flex;
+	justify-content: center;
+}
